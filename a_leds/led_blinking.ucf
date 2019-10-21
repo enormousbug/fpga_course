@@ -1,0 +1,21 @@
+CONFIG VCCAUX = "3.3" ;
+
+# NET - connection
+# LOC - localization
+# IOSTANDART - pin voltage
+# PERIOD - frequency, used for clk signal
+# DRIVE - pin max current in mA
+# SLEW - decide how fast pin should change 0 to 1 
+
+# Clock 12 MHz
+NET "Clk"                  LOC = P129  | IOSTANDARD = LVCMOS33 | PERIOD = 12MHz;
+
+# Connect value of LED0 to pin 46. Use 3.3V, 12 mA, and change state using slow.
+NET "LED[0]"             LOC = P46   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "LED[1]"             LOC = P47   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "LED[2]"             LOC = P48   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "LED[3]"             LOC = P49   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "LED[4]"             LOC = P50   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "LED[5]"             LOC = P51   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "LED[6]"             LOC = P54   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+NET "LED[7]"             LOC = P55   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;

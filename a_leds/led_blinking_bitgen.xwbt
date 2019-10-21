@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Documents\FPGA\kurs\a_leds\led_blinking.ncd
+OUTFILE=E:\Documents\FPGA\kurs\a_leds\led_blinking.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=E:\Documents\FPGA\kurs\a_leds
+LICENSE=WebPack
+USER_INFO=211826835_0_0_055

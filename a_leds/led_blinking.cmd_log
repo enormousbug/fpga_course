@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "E:/Documents/FPGA/kurs/a_leds/led_blinking.xst" -ofn "E:/Documents/FPGA/kurs/a_leds/led_blinking.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-5 led_blinking.ngc led_blinking.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_blinking_map.ncd led_blinking.ngd led_blinking.pcf 
+par -w -intstyle ise -ol high -t 1 led_blinking_map.ncd led_blinking.ncd led_blinking.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_blinking.twx led_blinking.ncd -o led_blinking.twr led_blinking.pcf 
+bitgen -intstyle ise -f led_blinking.ut led_blinking.ncd 
+bitgen -intstyle ise -f led_blinking.ut led_blinking.ncd 
+xst -intstyle ise -ifn "E:/Documents/FPGA/kurs/a_leds/led_blinking.xst" -ofn "E:/Documents/FPGA/kurs/a_leds/led_blinking.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_blinking.ucf -p xc3s50a-tq144-5 led_blinking.ngc led_blinking.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_blinking_map.ncd led_blinking.ngd led_blinking.pcf 
+par -w -intstyle ise -ol high -t 1 led_blinking_map.ncd led_blinking.ncd led_blinking.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_blinking.twx led_blinking.ncd -o led_blinking.twr led_blinking.pcf -ucf led_blinking.ucf 
+bitgen -intstyle ise -f led_blinking.ut led_blinking.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_blinking.ucf -p xc3s50a-tq144-5 led_blinking.ngc led_blinking.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_blinking_map.ncd led_blinking.ngd led_blinking.pcf 
+par -w -intstyle ise -ol high -t 1 led_blinking_map.ncd led_blinking.ncd led_blinking.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_blinking.twx led_blinking.ncd -o led_blinking.twr led_blinking.pcf -ucf led_blinking.ucf 
+bitgen -intstyle ise -f led_blinking.ut led_blinking.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_blinking.ucf -p xc3s50a-tq144-5 led_blinking.ngc led_blinking.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_blinking_map.ncd led_blinking.ngd led_blinking.pcf 
+par -w -intstyle ise -ol high -t 1 led_blinking_map.ncd led_blinking.ncd led_blinking.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_blinking.twx led_blinking.ncd -o led_blinking.twr led_blinking.pcf -ucf led_blinking.ucf 
+bitgen -intstyle ise -f led_blinking.ut led_blinking.ncd 
+xst -intstyle ise -ifn "E:/Documents/FPGA/kurs/a_leds/led_blinking.xst" -ofn "E:/Documents/FPGA/kurs/a_leds/led_blinking.syr" 
+xst -intstyle ise -ifn "E:/Documents/FPGA/kurs/a_leds/led_blinking.xst" -ofn "E:/Documents/FPGA/kurs/a_leds/led_blinking.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_blinking.ucf -p xc3s50a-tq144-5 led_blinking.ngc led_blinking.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_blinking_map.ncd led_blinking.ngd led_blinking.pcf 
+par -w -intstyle ise -ol high -t 1 led_blinking_map.ncd led_blinking.ncd led_blinking.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_blinking.twx led_blinking.ncd -o led_blinking.twr led_blinking.pcf -ucf led_blinking.ucf 
+bitgen -intstyle ise -f led_blinking.ut led_blinking.ncd 
+xst -intstyle ise -ifn "E:/Documents/FPGA/kurs/a_leds/led_blinking.xst" -ofn "E:/Documents/FPGA/kurs/a_leds/led_blinking.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_blinking.ucf -p xc3s50a-tq144-5 led_blinking.ngc led_blinking.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o led_blinking_map.ncd led_blinking.ngd led_blinking.pcf 
+par -w -intstyle ise -ol high -t 1 led_blinking_map.ncd led_blinking.ncd led_blinking.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml led_blinking.twx led_blinking.ncd -o led_blinking.twr led_blinking.pcf -ucf led_blinking.ucf 
+bitgen -intstyle ise -f led_blinking.ut led_blinking.ncd 
