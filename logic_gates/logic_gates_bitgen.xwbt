@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Documents\FPGA\fpga_course\logic_gates\logic_gates.ncd
+OUTFILE=E:\Documents\FPGA\fpga_course\logic_gates\logic_gates.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=E:\Documents\FPGA\fpga_course\logic_gates
+LICENSE=WebPack
+USER_INFO=211826835_0_0_055

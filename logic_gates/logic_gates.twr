@@ -1,0 +1,109 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml logic_gates.twx logic_gates.ncd -o logic_gates.twr
+logic_gates.pcf -ucf gates.ucf
+
+Design file:              logic_gates.ncd
+Physical constraint file: logic_gates.pcf
+Device,package,speed:     xc3s50a,tq144,-5 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DPSwitch<0>    |LED<0>         |    9.775|
+DPSwitch<0>    |LED<1>         |    8.821|
+DPSwitch<0>    |LED<2>         |    9.989|
+DPSwitch<0>    |LED<3>         |    9.031|
+DPSwitch<0>    |LED<4>         |    9.540|
+DPSwitch<0>    |LED<5>         |    9.750|
+DPSwitch<0>    |LED<7>         |    7.860|
+DPSwitch<1>    |LED<0>         |    9.687|
+DPSwitch<1>    |LED<1>         |    8.733|
+DPSwitch<1>    |LED<2>         |    9.901|
+DPSwitch<1>    |LED<3>         |    8.943|
+DPSwitch<1>    |LED<4>         |    9.452|
+DPSwitch<1>    |LED<5>         |    9.662|
+DPSwitch<1>    |LED<7>         |    7.772|
+Switch<0>      |LED<0>         |    7.666|
+Switch<0>      |LED<1>         |    7.369|
+Switch<0>      |LED<2>         |    7.899|
+Switch<0>      |LED<3>         |    7.598|
+Switch<0>      |LED<4>         |    7.431|
+Switch<0>      |LED<5>         |    7.660|
+Switch<0>      |LED<6>         |    7.102|
+Switch<1>      |LED<0>         |   10.051|
+Switch<1>      |LED<1>         |    9.097|
+Switch<1>      |LED<2>         |   10.265|
+Switch<1>      |LED<3>         |    9.307|
+Switch<1>      |LED<4>         |    9.816|
+Switch<1>      |LED<5>         |   10.026|
+Switch<1>      |LED<7>         |    8.136|
+Switch<2>      |LED<0>         |    9.766|
+Switch<2>      |LED<1>         |    8.812|
+Switch<2>      |LED<2>         |    9.980|
+Switch<2>      |LED<3>         |    9.022|
+Switch<2>      |LED<4>         |    9.531|
+Switch<2>      |LED<5>         |    9.741|
+Switch<2>      |LED<7>         |    7.851|
+Switch<3>      |LED<0>         |    9.852|
+Switch<3>      |LED<1>         |    8.898|
+Switch<3>      |LED<2>         |   10.066|
+Switch<3>      |LED<3>         |    9.108|
+Switch<3>      |LED<4>         |    9.617|
+Switch<3>      |LED<5>         |    9.827|
+Switch<3>      |LED<7>         |    7.937|
+Switch<4>      |LED<0>         |    9.818|
+Switch<4>      |LED<1>         |    8.864|
+Switch<4>      |LED<2>         |   10.032|
+Switch<4>      |LED<3>         |    9.074|
+Switch<4>      |LED<4>         |    9.583|
+Switch<4>      |LED<5>         |    9.793|
+Switch<4>      |LED<7>         |    7.903|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Oct 27 00:46:56 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 142 MB
+
+
+

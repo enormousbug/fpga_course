@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gates.ucf -p xc3s50a-tq144-5 logic_gates.ngc logic_gates.ngd  
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gates.ucf -p xc3s50a-tq144-5 logic_gates.ngc logic_gates.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o logic_gates_map.ncd logic_gates.ngd logic_gates.pcf 
+par -w -intstyle ise -ol high -t 1 logic_gates_map.ncd logic_gates.ncd logic_gates.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml logic_gates.twx logic_gates.ncd -o logic_gates.twr logic_gates.pcf -ucf gates.ucf 
+bitgen -intstyle ise -f logic_gates.ut logic_gates.ncd 
+bitgen -intstyle ise -f logic_gates.ut logic_gates.ncd 
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gates.ucf -p xc3s50a-tq144-5 logic_gates.ngc logic_gates.ngd  
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gates.ucf -p xc3s50a-tq144-5 logic_gates.ngc logic_gates.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o logic_gates_map.ncd logic_gates.ngd logic_gates.pcf 
+par -w -intstyle ise -ol high -t 1 logic_gates_map.ncd logic_gates.ncd logic_gates.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml logic_gates.twx logic_gates.ncd -o logic_gates.twr logic_gates.pcf -ucf gates.ucf 
+bitgen -intstyle ise -f logic_gates.ut logic_gates.ncd 
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gates.ucf -p xc3s50a-tq144-5 logic_gates.ngc logic_gates.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o logic_gates_map.ncd logic_gates.ngd logic_gates.pcf 
+par -w -intstyle ise -ol high -t 1 logic_gates_map.ncd logic_gates.ncd logic_gates.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml logic_gates.twx logic_gates.ncd -o logic_gates.twr logic_gates.pcf -ucf gates.ucf 
+bitgen -intstyle ise -f logic_gates.ut logic_gates.ncd 
+xst -intstyle ise -ifn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.xst" -ofn "E:/Documents/FPGA/fpga_course/logic_gates/logic_gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gates.ucf -p xc3s50a-tq144-5 logic_gates.ngc logic_gates.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o logic_gates_map.ncd logic_gates.ngd logic_gates.pcf 
+par -w -intstyle ise -ol high -t 1 logic_gates_map.ncd logic_gates.ncd logic_gates.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml logic_gates.twx logic_gates.ncd -o logic_gates.twr logic_gates.pcf -ucf gates.ucf 
+bitgen -intstyle ise -f logic_gates.ut logic_gates.ncd 
