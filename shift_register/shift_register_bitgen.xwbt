@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Documents\FPGA\fpga_course\shift_register\shift_register.ncd
+OUTFILE=E:\Documents\FPGA\fpga_course\shift_register\shift_register.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=E:\Documents\FPGA\fpga_course\shift_register
+LICENSE=WebPack
+USER_INFO=211826835_0_0_055
